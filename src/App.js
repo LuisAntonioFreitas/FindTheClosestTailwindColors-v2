@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Modal from 'react-modal'; 
 import { sendMessage } from "./helpers/gemini";
 import { LoaderCircle } from "lucide-react";
 import GoogleLogo from "./components/GoogleLogo";
