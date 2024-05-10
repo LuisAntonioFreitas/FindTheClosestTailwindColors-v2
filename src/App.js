@@ -35,6 +35,7 @@ function App() {
 
   return (
     <>
+      <h1>HELP</h1>
       {!areColorsSuggestedByAI ? (
         <button
           onClick={handleGetColorsSuggestedByAIClick}
